@@ -1,0 +1,44 @@
+Chapter 1:(Basics of Jest and Unit Testing)
+1. Jest is a unit-testing Java-script framework used for unit testing before deploying a program.
+2. Unit-testing are short programs that test whether a function works correctly in isolation from other parts of your application.
+3. There are basic four steps that need to be applied for the unit-testing.
+4. There are three things that need to be focused on while performing a unit-testing i.e input-function,output and expected result.
+
+The basic four steps to follow while unit testing:
+1. import the function to test.
+2. give an input to the function.
+3. define what to expect as the output.
+4. check if the function produces the expected output.
+
+There will be always two categories:
+1. One file where the input/logic/algorithm is written.
+2. Second file where the logic is checked by creating test-cases by taking the input function/file where the algorithm is written.
+
+keywords used in the test functions:
+1. test
+2. expect
+3. matcher(toBe,toEqual)
+
+Basic Syntax for the test function:
+test("", () => {})
+1. It has two parameters:
+-> string: which tells what the function is going to do.
+-> function: which have the expected result for the input function.(Using expect and matchers).
+
+
+Chapter 2:(Matchers)
+1. There are various matchers used while forming a test case.
+2. The various matchers can be toBeNULL,toBeUndefined,toBeDefined etc.
+3. Each matcher has it's own use and function.
+
+Various Types of Matchers:
+1. toEqual: is used when the input array/object is compared with the expected result.
+2. toBeLessThan: is used compare the input with value which is less than or equal to a given value in the test function
+3. toMatch: is used to check whether the character is in the expected string or not.
+4. toContain: is used to check whether the input element is contained in the Array or not.
+
+Chapter 3:(Asynchronous Code)
+1. In java-script it is common to run asynchronous code so to create or handle such data various methods are used.
+2. Asynchronous data executes the operations in parallel.
+
+
